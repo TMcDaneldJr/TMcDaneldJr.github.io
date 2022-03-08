@@ -46,10 +46,10 @@ class twitterAnalyze():
         self.followers_count = []
         
         # My API Keys for twitter access
-        self.CONSUMER_KEY = "Lxa2Jk12VRcnxovEyNmUBlDK4"
-        self.CONSUMER_SECRET = "XDHgjhousCyXMpueZ238OeheaDccs4D8KrZ1AjGhr45xAVNNFo"
-        self.ACCESS_TOKEN = "1353555996367482882-z896vW4frwDdJuxPjMt5QDNf5I43OP"
-        self.ACCESS_TOKEN_SECRET = "72fFf3nirtyvIFle87nE2HMZqy6DTOHefpucd2sTfvtap"
+        self.CONSUMER_KEY = "____"
+        self.CONSUMER_SECRET = "____"
+        self.ACCESS_TOKEN = "____"
+        self.ACCESS_TOKEN_SECRET = "____"
 
         self.twitter = Twython(self.CONSUMER_KEY,
                                self.CONSUMER_SECRET,
