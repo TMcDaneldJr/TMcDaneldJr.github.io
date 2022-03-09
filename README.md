@@ -1,2 +1,11 @@
-# TMcDaneldJr.github.io
-Hi, My name is Travis McDaneld. I'm a 3rd year Economics/Data Science student at Pacific Lutheran University in Tacoma Washington, and this is my portfolio.
+# Portfolio - Travis McDaneld, Data Science/Analytics
+Hi, My name is Travis McDaneld. I'm a 3rd year Economics/Data Science student at *Pacific Lutheran University* in Tacoma Washington, and this is my portfolio.
+
+## Twitter_API_SQL_Demonstration.py
+  This is a **python** program I developed that searches tweets based on passed arguments, stores them in an **SQL** database, and makes a query to that database in order to return the first three instances of what was stored in it. The program takes three command line inputs (a word, the number of tweets you'd like, and the name of the database you'd like to create). For example, one could run "python Twitter_API_SQL_Demonstration.py DataScience 10000 database.db" (no quotes) in their command line and store ten thousand tweets about DataScience in a new database named "database.db". My personal API keys are temporarily not included. The packages used are sys, twython and sqlite3.
+  
+## McDaneld & Hiller - Potential Constituents of the 30-Year Fixed US Mortgage Rate
+  This is a co-authored research paper that I wrote with another student, Mac Hiller. The paper follows our execution a time-series regression analysis of the US Fixed Rate Mortgage Rate, taken monthly over the last decade. 5 independent variables seek to explain this dependent variable and all follow the same time convention. They are the *Effective Federal Funds Rate, the 10-Year Breakeven Inflation Rate, Percent Change in the price od Commercial Bank's Mortgage-Backed-Securities, Percent Change in New Insured Unemployment Claims, and the National Financial Conditions Risk Index*. In the paper, we create a model that accounts for *Autocorrelation* (with Exogenous Regressors), *Heteroskedasticity* (with Breusch-Pagan Test and White's Tests) and *non-stationary* (with an Augmented Dickey-Fuller Test). These are corrected with *Weighted Least Squares* and a *Lag* on the dependent variable. All data was obtained from the *Federal Reserve Economic Data*, and our testing was conducted using **R Statistical Software**.
+  
+## Exploring_Minimalist_Data_Visualization
+  This photo is a Visualization of the dispersion of each independent variable in my aforementioned paper. Inspired by Edward Tufte's ideas on a minimalistic approach to Data-Visualization, this boxplot served both as a useful tool and as a thought-experiment on the idea of maximizing the information-to-ink ratio. The plot was created using **R Statistical Software**.
